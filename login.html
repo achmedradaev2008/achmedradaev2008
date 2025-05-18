@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberForge login page</title>
+    <link rel="stylesheet" href="styleelogin.css">
+</head>
+<body>
+    <header>
+
+        <img src="cflogo.jpg" alt="logofromsite" id="cflogo">
+
+        <div class="name">
+            <h1>
+                CyberForge
+            </h1>
+            <p> Forge your cyber pc now! </p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="cart.html"     target = "_blank" >Cart</a>                 </li>
+                <li><a href="wishlist.html" target = "_blank" >Wishlist</a>         </li>
+                <li><a href="login.html"  target = "_blank" >Profile</a>            </li>
+                <li><a href="index.html">Home</a>                              </li>
+                <li><a href="#newsletter">Newsletter</a>                        </li>
+            </ul>
+            <input type="text" class="search" placeholder="Type here for search">
+            
+        </nav>
+        
+
+
+    </header>
+    <div class="wrapper">
+        <!--Поле для информации пользователя-->
+        <h2 class="wrapper__title">Заполните форму для Logina!</h2>
+        <!--Добавьте action-->
+        <form class="form" methode="GET" action="https://echo.htmlacademy.ru/">
+            <div class="user">
+                <ul class="user-info">
+                    <li class="user-info__item">
+                        <!--Вставь сюда label для ФИО-->
+                        <label for="name">Ф.И.О</label>
+                        <input type="text" name="name" id="name" placeholder="Введите ваше ФИО" required>
+                    </li>
+                    <li class="user-info__item">
+                        <!--Вставь сюда label для почты-->
+                        <label for="email">E-mail</label>
+                        <input type="email" name="e-mail" id="email" placeholder="Введите ваш e-mail" required>
+                    </li>
+                </ul>
+                <!--Поля для адреса и даты-->
+                <ul class="address-date">
+                    <li class="user-info__item">
+                        <!--Вставь сюда label для адреса-->
+                        <label for="address">Укажите ваш адрес</label>
+                        <input type="text" name="adress" id="address" placeholder="Ваш адрес" required>
+                    </li>
+                    <li class="user-info__item">
+                        <!--Вставь сюда label для даты заказа-->
+                        <label for="date">Укажите дату birthday</label>
+                        <input type="date" name="" id="date" required>
+                    </li>
+                </ul>
+            </div>
+            <div class="delivery">
+                <ul class="delivery-info">
+                    <h3 class="delivery__title">Выберете способ доставки</h3>
+                    <li class="delivery-info__item">
+                        <!--Вставь сюда label для способа доставки-->
+                        <label for="courier">Premium subscription</label>
+                        <input type="radio" id="courier" value="courier" name="dostavka" checked>
+                    </li>
+                    <li class="delivery-info__item">
+                        <!--Вставь сюда label для способа доставки-->
+                        <label for="sam">Sponsor subscription</label>
+                        <input type="radio" id="sam" value="sam" name="dostavka">
+                    </li>
+                    <li class="delivery-info__item">
+                        <!--Вставь сюда label для способа доставки-->
+                        <label for="mail">No subscription</label>
+                        <input type="radio" id="mail" value="mail" name="dostavka">
+                    </li>
+            </div>
+                <div class="select">
+                    <h3 class="select__title">Оставьте свой комментарий и выберите оплату </h3>
+                    <select name="" id="">
+                        <option>Онлайн</option>
+                        <option>Наличными при получении</option>
+                        <option>Картой при получении</option>
+                    </select>
+                    <!--Вставь label для комментария-->
+                    <label for="comment">Дополнительный комментарий</label>
+                    <textarea name="" id="comment" cols="30" rows="10" placeholder="Ваш комментарий"></textarea>
+                </div>
+            <!--Вставьте кнопку-->
+            <button type="submit">Готово!<button>
+        </form>
+    </div>
+    </body>
+    
+</html>

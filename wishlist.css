@@ -1,0 +1,120 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    margin: none;
+    padding: none;
+}
+
+img {
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+    color:rgb(255, 255, 255);
+    font-size:21px;  
+}
+
+a:hover {
+    
+    text-decoration: underline;
+    transition: 0.3s ease;
+    text-decoration-color: #ff6600;
+  }
+
+a:active{
+    color:red;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name{
+    padding: 0%;
+    
+}
+   
+.search{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 60%;
+    border-radius: 15%;
+}    
+    
+
+#cflogo{
+    border-radius: 55%;
+    width: 100px;
+    height: 112.5px;
+    padding: 20px;
+    border-color: #8f8f8f;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color:#a3a3a3;
+    
+}
+
+body{
+    background-image: url(background-white-cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font: 16px 'Montserrat', sant-serif;
+    color: #fff;
+
+}
+main{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+
+.rectangle{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(161, 160, 160, 0.7);
+
+}
+
+.border{
+    border-color: #000000;
+}
+
+.pustota{
+    height: 200px;
+}
+
+
+
+
+footer{
+
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    justify-content: baseline;
+   
+}

@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+*{
+    margin: none;
+    padding: none;
+}
+
+img {
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+    color:black;
+    font-size:21px;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+    transition: 0.3s ease;
+    text-decoration-color: #ff6600;
+  }
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a:active{
+    color:red;
+}
+
+.name{
+    padding: 0%;
+    
+}
+   
+.search{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 60%;
+    border-radius: 15%;
+}    
+    
+
+#cflogo{
+    border-radius: 55%;
+    width: 100px;
+    height: 112.5px;
+    padding: 20px;
+    border-color: #8f8f8f;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color:#a3a3a3;
+    
+}
+
+body{
+    background-image: url(background-white-cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main{
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+
+
+}

@@ -1,0 +1,266 @@
+/*Код для нашей рабочей зоны*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: none;
+    padding: none;
+}
+
+img {
+    border-radius: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    margin: 30px;
+    color:black;
+    font-size:21px;
+}
+
+a:hover {
+    
+    text-decoration: underline;
+    transition: 0.3s ease;
+    text-decoration-color: #ff6600;
+  }
+
+  a:active{
+    color:red;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name{
+    padding: 0%;
+    
+}
+   
+.search{
+    margin:15px 20px 0px 20px ;
+    padding: 5px;
+    width: 60%;
+    border-radius: 15%;
+}    
+    
+
+#cflogo{
+    border-radius: 55%;
+    width: 100px;
+    height: 112.5px;
+    padding: 20px;
+    border-color: #8f8f8f;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color:#a3a3a3;
+    
+}
+
+body{
+    background-image: url(background-white-cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main{
+
+    margin:200px 50px 0px 50px;
+}
+
+
+
+footer{
+
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+
+
+}
+
+body {
+    margin: 0;
+    font: 16px 'Montserrat', sant-serif;
+    color: #fff;
+}    
+
+h2,h3, p {
+    font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    margin: 5px;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-image: url(background-white-cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.wrapper {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 200px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.wrapper__title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.user input {
+    padding: 5px;
+    border: 1px solid #fff;
+    background: inherit;
+    border-radius: 5px;
+    font: inherit;
+    width: 100%;
+    color: #ffffff;
+}
+
+.user input:focus,
+.user input:active {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.address-date {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__title {
+    margin-bottom: 5%;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.select select {
+    width: 300px;
+    font: inherit;
+    background: inherit;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select option {
+    background: #272727;
+}
+
+.select textarea {
+    background: inherit;
+    font: inherit;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.select textarea:focus,
+.select textarea:active {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.delivery-info{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.delivery-info li {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+    flex-direction:row-reverse ;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    min-width: 300px;
+    cursor: pointer;
+    align-self: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #272727;
+    font: inherit;
+    color: #fff;
+}
+
+button:hover{
+    color: #ff6600;
+}
+button:active{
+    color: #e04212;
+}
